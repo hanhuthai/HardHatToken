@@ -61,7 +61,7 @@ contract GHToken is ERC20, ERC20Burnable, ERC20Snapshot, Ownable, Pausable {
     super._beforeTokenTransfer(from, to, amount);
   }
 
-  function _afterTokenTransfer(
+  function _afterTokenTransfer(  //called after token tranfer, mint burn
     address from,
     address to,
     uint256 amount
