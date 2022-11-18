@@ -15,8 +15,8 @@ contract DeposWithdToken {
         
          // This is the mainnet USDT contract address
          // Using on other networks (rinkeby, local, ...) would fail
-         //  - there's no contract on this address on other neworks
-        IERC20 ght = IERC20(address(0x7dDf41C60930621c53027cbE5t1652FC577ce10D2));
+         //  - there's no contract on this address on other networks
+        IERC20 ght = IERC20(address(0x7dDf41C60930621c53027cbE51652FC577ce10D2));
        // require(ght.balanceOf(msg.sender) >= 100);
 
         // transfers USDT that belong to your contract to the specified address

@@ -27,7 +27,7 @@ module.exports = {
     hardhat: {
     },
     testnet: {
-      url: "https://data-seed-prebsc-1-s3.binance.org:8545",
+      url: "https://bsctestapi.terminet.io/rpc",
       chainId: 97,
       gasPrice: 20000000000,
       accounts: {mnemonic: mnemonic}
